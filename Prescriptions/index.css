@@ -1,0 +1,73 @@
+.big-text {
+font-family: Roboto;
+font-size: 350%;
+color:  #282828;
+margin: 0;
+padding: 0;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, .table th {
+     border: 2px solid #ddd;
+     padding: 8px;
+}
+
+.table tr:nth-child(even) {background-color: #f2f2f2;}
+.table tr:hover {background-color: #ddd;}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5cbf60;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:link {
+    color: #ff0835;
+}
+
+a:visited {
+    color: #ff0835;
+}
+
+a:hover {
+    color: #ff6e5d;
+    text-decoration: none;
+}
+
+p {
+font-family:  Roboto;
+font-size: 125%;
+}
+
+h3 {
+font-family: Roboto;
+color: #FF0835;
+}
+
+.background {
+height: 500px;
+width: 100%;
+background: url(http://i.huffpost.com/gen/2087622/images/o-PRESCRIPTION-PAD-facebook.jpg) no-repeat center center;
+border-top: 1px solid #8090A0;
+border-bottom: 1px solid #8090A0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
